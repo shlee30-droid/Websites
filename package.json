@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
-    "format": "prettier --check ."
+    "format": "prettier --check .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "engines": {
     "node": ">=20.11.0",
@@ -29,6 +31,7 @@
     "eslint": "^9.39.2",
     "eslint-plugin-react-hooks": "latest",
     "eslint-plugin-react-refresh": "latest",
+    "gh-pages": "^6.3.0",
     "globals": "^15.13.0",
     "prettier": "latest",
     "typescript": "latest",
