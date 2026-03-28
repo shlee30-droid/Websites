@@ -11,7 +11,7 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   return (
-    <Router basename="/">
+    <Router basename="/Websites">
       <div className="app" style={{
         background: isDarkMode 
           ? 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%)'
